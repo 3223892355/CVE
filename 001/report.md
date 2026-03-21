@@ -8,6 +8,6 @@ Decompress the bin.rar compressed package
 ![alt text](image/image.png)
 
 The JuCheap.Data.dll.config configuration file leaks the intranet server IP address and database account password.
-![alt text](imageimage1.png)
-![alt text](imageimage-1.png)
-![alt text](imageimage-2.png)
+![alt text](image/image1.png)
+![alt text](image/image-1.png)
+![alt text](image/image-2.png)
