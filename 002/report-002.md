@@ -15,12 +15,13 @@
 
 ## 2. Vulnerability description
 Shenzhen Mysoft Co., Ltd.'s Mysoft Real Estate ERP contains an **Unauthorized Information Disclosure Vulnerability** (CWE-200: Exposure of Sensitive Information to an Unauthorized Actor). In affected deployments, attackers can directly access exposed backup packages such as `bin.rar` or `bin.zip` from the web root without authentication.
+![alt text](image/image.png)
 
 After downloading and decompressing the backup package, attackers can obtain configuration files such as `Mysoft.UTFramework2.UnitTest.dll.config`, which contain **cleartext** sensitive information, including:
 - Internal database address
 - Database username and password
 - Other internal deployment and configuration details
-
+![alt text](image/image-1.png)
 The leaked credentials may allow attackers to directly access the backend database, disclose sensitive business data, tamper with application data, and use the leaked internal information as a foothold for further attacks against internal systems.
 
 ---
