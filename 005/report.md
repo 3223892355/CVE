@@ -25,7 +25,7 @@ Ankerui Electric's Prepaid Cloud Platform implements an `AccessTokenAuthorizeAtt
 
 The vendor's product attribution is confirmed via the QR code on the platform's landing page, which decodes to `http://yun.acrel-eem.com/qrcode/qrcode_download.html` (ICP filing: 沪ICP备18035382号).
 
-> - ![image-20260628125046950](.\image\1.png)
+![alt text](image/1.png)
 
 ---
 
@@ -63,7 +63,7 @@ Content-Type: application/json
 }
 ```
 
-> - ![image-20260628125128143](.\image\2.png)
+![alt text](image/2.png)
 
 ### 3.2 Vulnerability 2 — Unauthenticated Recharge Record Access
 
@@ -74,7 +74,7 @@ Host: <target>:10315
 
 Using `MeterID` extracted from Vulnerability 1, attackers can enumerate complete recharge histories for each meter.
 
-> - ![image-20260628125203847](.\image\3.png)
+![alt text](image/3.png)
 
 ### 3.3 Bulk Data Extraction — All Rooms Enumerated (Target: 121.42.13.86:10315)
 
@@ -92,7 +92,7 @@ By iterating `roomID` from 100 to 999, the following **real production data** wa
 | 508 | 001012NB0040 | 00101 | 1.00 | 93.10 | ⚠️ | ❌ | ❌ | — | — |
 | 520 | 001012NB0060 | 00101 | 1.00 | 877.92 | ❌ | ❌ | ❌ | — | — |
 
-> - ![image-20260628125319332](.\image\4.png)
+![alt text](image/4.png)
 
 ### 3.4 Confirmed Vulnerable Hosts
 

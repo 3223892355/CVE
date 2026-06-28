@@ -32,7 +32,7 @@ This single file read effectively grants an attacker the "keys to the kingdom," 
 
 The vendor's product attribution is confirmed via the QR code on the platform's landing page, which decodes to `http://yun.acrel-eem.com/qrcode/qrcode_download.html` (ICP filing: 沪ICP备18035382号).
 
-> - ![image-20260628124318588](.\image\1.png)
+![alt text](image/1.png)
 
 ---
 
@@ -48,8 +48,7 @@ Accept: */*
 Accept-Language: zh-CN,zh;q=0.9
 Connection: close
 ```
-
-> - ![image-20260628124510259](.\image\2.png)
+![alt text](image/2.png)
 
 ### 3.2 Confirmed Exploitation — Read web.config and Extract All Secrets
 
@@ -108,7 +107,7 @@ The response returned the complete `web.config` with **all plaintext secrets** (
 | Payment Callback | `wxpay_notify_url` | `http://192.168.8.51:16028/api/App/PayNotify` | Internal network recon |
 | Payment Callback | `alipay_notify_url` | `https://yunpay.acrel-eem.com/acrel/api/App/AliNotify` | Internal domain disclosure |
 
-> - - ![image-20260628124924584](.\image\3.png)
+![alt text](image/3.png)
 
 ### 3.4 Additional Confirmed Vulnerable Hosts
 
