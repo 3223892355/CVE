@@ -18,7 +18,7 @@ Ankerui Electric's Prepaid Cloud Platform exposes an **unauthenticated arbitrary
 
 The vendor's product attribution is confirmed via the QR code on the platform's landing page, which decodes to `http://yun.acrel-eem.com/qrcode/qrcode_download.html` (ICP filing: 沪ICP备18035382号).
 
-![image-20260628123634328](C:/Users/32238/AppData/Roaming/Typora/typora-user-images/image-20260628123634328.png)
+![image-20260628123634328](.\image\1.png)
 
 ---
 
@@ -65,11 +65,11 @@ Content-Type: application/x-www-form-urlencoded
 c=whoami
 ```
 
-> - ![image-20260628123805838](C:/Users/32238/AppData/Roaming/Typora/typora-user-images/image-20260628123805838.png)
+> - ![image-20260628123805838](.\image\2.png)
 > 
-> - ![image-20260628123915101](C:/Users/32238/AppData/Roaming/Typora/typora-user-images/image-20260628123915101.png)
+> - ![image-20260628123915101](.\image\3.png)
 >
-> - ![image-20260628123836457](C:/Users/32238/AppData/Roaming/Typora/typora-user-images/image-20260628123836457.png)
+> - ![image-20260628123836457](.\image\4.png)
 
 ### 3.2 Confirmed Vulnerable Instances (Verified)
 
